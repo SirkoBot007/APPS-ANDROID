@@ -1,0 +1,26 @@
+# --- Android / Gradle (monorepo root) ---
+# Each app is its own Gradle project; this root ignore covers them all.
+
+# Build output
+**/build/
+**/.gradle/
+**/captures/
+**/.cxx/
+**/.externalNativeBuild/
+
+# Local config & secrets — never commit
+**/local.properties
+local.properties
+
+# Android Studio / IntelliJ
+**/*.iml
+.idea/
+**/.idea/
+*.hprof
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
