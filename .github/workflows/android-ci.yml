@@ -1,0 +1,50 @@
+name: Android CI
+
+# Compila las 4 apps en cada push / pull request a main.
+# Cada app es un proyecto Gradle independiente, así que usamos una matriz.
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build ${{ matrix.app }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        app:
+          - 01-SmartNotes-AI
+          - 02-FinTrack-Expenses
+          - 03-CryptoPulse-Tracker
+          - 04-DayFlow-Tasks
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Gradle 8.9
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+
+      - name: Build debug APK
+        working-directory: ${{ matrix.app }}
+        run: gradle assembleDebug --no-daemon --stacktrace
+
+      - name: Upload debug APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.app }}-debug-apk
+          path: ${{ matrix.app }}/app/build/outputs/apk/debug/*.apk
+          if-no-files-found: warn

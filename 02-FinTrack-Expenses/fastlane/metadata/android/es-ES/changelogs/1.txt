@@ -1,0 +1,1 @@
+Primera versión: registro de gastos e ingresos sin conexión y gráfico por categorías.

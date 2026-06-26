@@ -1,0 +1,12 @@
+SmartNotes AI es una libreta sencilla y rápida con un asistente de inteligencia artificial integrado. Escribe tus notas y, con un toque, deja que la IA las resuma, las mejore o las amplíe.
+
+FUNCIONES PRINCIPALES
+• Crea y edita notas que se guardan en tu dispositivo.
+• Asistente de IA con tres acciones: Resumir, Mejorar y Ampliar.
+• Interfaz limpia y moderna (Material 3), con modo claro y oscuro.
+• Tus notas se almacenan localmente; funcionan sin conexión.
+
+PRIVACIDAD
+Cuando usas una acción de IA, el texto de esa nota se envía al proveedor de IA para generar la respuesta. El resto del tiempo tus notas permanecen en tu dispositivo. Consulta la política de privacidad para más detalle.
+
+Hecho con Kotlin y Jetpack Compose. Proyecto de portfolio de Sirko007.

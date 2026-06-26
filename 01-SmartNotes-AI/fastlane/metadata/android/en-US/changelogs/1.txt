@@ -1,0 +1,1 @@
+First release: local notes and an AI assistant (summarize, improve, expand).

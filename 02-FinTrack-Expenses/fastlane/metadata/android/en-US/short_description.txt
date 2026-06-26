@@ -1,0 +1,1 @@
+Track expenses and income offline, with a breakdown chart by category.

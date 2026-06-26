@@ -12,6 +12,14 @@
 **/local.properties
 local.properties
 
+# Release signing — NEVER commit keystores or their passwords
+**/keystore.properties
+keystore.properties
+**/*.jks
+**/*.keystore
+*.jks
+*.keystore
+
 # Android Studio / IntelliJ
 **/*.iml
 .idea/

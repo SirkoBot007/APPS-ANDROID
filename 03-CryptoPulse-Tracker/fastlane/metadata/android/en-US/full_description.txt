@@ -1,0 +1,13 @@
+CryptoPulse shows live prices for top cryptocurrencies, with 24h change and a 7-day trend sparkline. Tap any coin to see its details.
+
+KEY FEATURES
+• Top coins with price and 24h change.
+• 7-day trend chart (sparkline) per coin.
+• Pull to refresh; prices also update in the background.
+• Local cache: the latest data shows instantly, even offline.
+• Modern dark Material 3 interface.
+
+DATA
+Prices come from the public CoinGecko API. CryptoPulse needs no account and collects no personal data. Content is informational only and not financial advice.
+
+Built with Kotlin and Jetpack Compose. A Sirko007 portfolio project.

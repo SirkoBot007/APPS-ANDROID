@@ -1,5 +1,9 @@
 # Android Portfolio — Sirko007
 
+[![Android CI](https://github.com/SirkoBot007/APPS-ANDROID/actions/workflows/android-ci.yml/badge.svg)](https://github.com/SirkoBot007/APPS-ANDROID/actions/workflows/android-ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Kotlin](https://img.shields.io/badge/Kotlin-2.0-blueviolet.svg)](https://kotlinlang.org)
+
 Four production-style Android apps, each built to demonstrate a **distinct, in-demand competency**
 for 2026 hiring. All share the same modern stack — **Kotlin · Jetpack Compose · MVVM · Hilt · Room**
 — so the portfolio reads as a consistent, opinionated codebase rather than four random demos.
@@ -33,7 +37,9 @@ to run it.
 - **Async:** Kotlin Coroutines + Flow; `collectAsStateWithLifecycle` in the UI.
 - **Build:** Gradle Kotlin DSL + **version catalogs** (`gradle/libs.versions.toml`), KSP for Room/Hilt.
 - **UI:** 100% Jetpack Compose + Material 3, no XML layouts. Adaptive launcher icons are vector-based.
-- **Min SDK 24 · Target/Compile SDK 34 · Kotlin 2.0.**
+- **Min SDK 24 · Target/Compile SDK 35 · Kotlin 2.0.**
+- **Release-ready:** R8 + resource shrinking, keystore-based signing (via `keystore.properties`),
+  and CI that builds all four apps on every push.
 
 ---
 
@@ -59,5 +65,20 @@ to run it.
   WorkManager job wired into Hilt.
 - **Fundamentals must look polished** → DayFlow is a clean, complete CRUD app with modern Material 3
   interactions.
+
+---
+
+## 🚀 Google Play readiness
+
+Every app is prepared for store submission — see **[PLAY-STORE.md](PLAY-STORE.md)** for the full
+step-by-step guide. Already in place:
+
+- **Signed release builds** via `keystore.properties` (template per app), R8 + `shrinkResources`.
+- **Store listings** (ES + EN) in Fastlane format under each app's `fastlane/metadata/android/`.
+- **Privacy policy** and **Data safety** answers per app (`PRIVACY-POLICY.md`, `DATA-SAFETY.md`).
+- **`targetSdk 35`**, `versionName 1.0.0` — compliant with current Play requirements.
+
+What still needs the account owner: generating the signing keystore, the Play Console account,
+screenshots/graphics, and the upload itself. All documented in `PLAY-STORE.md`.
 
 Built by **Sirko007**.

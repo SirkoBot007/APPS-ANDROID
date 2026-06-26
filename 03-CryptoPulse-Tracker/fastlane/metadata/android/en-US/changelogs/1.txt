@@ -1,0 +1,1 @@
+First release: live crypto prices, 7-day chart, background refresh and offline cache.

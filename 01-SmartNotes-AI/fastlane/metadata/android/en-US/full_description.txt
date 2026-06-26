@@ -1,0 +1,12 @@
+SmartNotes AI is a simple, fast notebook with a built-in AI assistant. Write your notes and, with one tap, let the AI summarize, improve or expand them.
+
+KEY FEATURES
+• Create and edit notes saved on your device.
+• AI assistant with three actions: Summarize, Improve and Expand.
+• Clean, modern Material 3 interface with light and dark themes.
+• Notes are stored locally and work offline.
+
+PRIVACY
+When you use an AI action, the text of that note is sent to the AI provider to generate the response. The rest of the time your notes stay on your device. See the privacy policy for details.
+
+Built with Kotlin and Jetpack Compose. A Sirko007 portfolio project.

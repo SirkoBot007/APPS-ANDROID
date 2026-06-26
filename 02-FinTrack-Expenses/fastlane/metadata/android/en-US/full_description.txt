@@ -1,0 +1,12 @@
+FinTrack is a simple expense and income tracker that works fully offline. Log your transactions, see your balance instantly, and understand where your money goes with a category breakdown chart.
+
+KEY FEATURES
+• Add income and expenses with a category (food, transport, leisure, etc.).
+• Balance, total income and total expenses computed automatically.
+• Donut chart with your spending broken down by category.
+• Clean Material 3 interface with light and dark themes.
+
+PRIVACY
+FinTrack uses no internet and collects no data. Everything is stored only on your device.
+
+Built with Kotlin and Jetpack Compose. A Sirko007 portfolio project.

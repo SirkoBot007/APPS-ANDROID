@@ -1,0 +1,13 @@
+DayFlow is a clean, fast task and habit manager. Create tasks with a priority and due date, check them off, and keep your day organized.
+
+KEY FEATURES
+• Create, edit and delete tasks (swipe to delete).
+• Priorities (low, medium, high) and an optional due date.
+• Filters: All, Today, Pending and Done.
+• Pending and completed counters.
+• Material 3 interface with light/dark themes and subtle animations.
+
+PRIVACY
+DayFlow uses no internet and collects no data. Everything is stored only on your device.
+
+Built with Kotlin and Jetpack Compose. A Sirko007 portfolio project.

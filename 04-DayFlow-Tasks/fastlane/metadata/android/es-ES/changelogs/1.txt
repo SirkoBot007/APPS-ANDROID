@@ -1,0 +1,1 @@
+Primera versión: tareas con prioridades, filtros, deslizar para borrar y modo sin conexión.

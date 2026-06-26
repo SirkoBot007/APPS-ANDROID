@@ -1,0 +1,13 @@
+CryptoPulse muestra los precios de las principales criptomonedas en tiempo real, con su variación de 24 h y un mini-gráfico de tendencia de 7 días. Toca cualquier moneda para ver su detalle.
+
+FUNCIONES PRINCIPALES
+• Top de criptomonedas con precio y cambio de 24 h.
+• Gráfico de tendencia de 7 días (sparkline) por moneda.
+• Desliza hacia abajo para actualizar; los precios también se refrescan en segundo plano.
+• Caché local: la última información se ve al instante, incluso sin conexión.
+• Interfaz oscura moderna (Material 3).
+
+DATOS
+Los precios provienen de la API pública de CoinGecko. CryptoPulse no requiere cuenta ni recopila datos personales. El contenido es solo informativo y no es asesoramiento financiero.
+
+Hecho con Kotlin y Jetpack Compose. Proyecto de portfolio de Sirko007.

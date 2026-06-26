@@ -1,0 +1,1 @@
+Primera versión: precios cripto en vivo, gráfico de 7 días, refresco en segundo plano y caché sin conexión.

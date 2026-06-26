@@ -1,0 +1,12 @@
+FinTrack es un control de gastos e ingresos sencillo que funciona totalmente sin conexión. Registra tus movimientos, mira tu saldo al instante y entiende en qué se va tu dinero con un gráfico por categorías.
+
+FUNCIONES PRINCIPALES
+• Añade ingresos y gastos con categoría (comida, transporte, ocio, etc.).
+• Saldo, ingresos y gastos totales calculados automáticamente.
+• Gráfico de anillo con el desglose de gastos por categoría.
+• Interfaz limpia Material 3, con modo claro y oscuro.
+
+PRIVACIDAD
+FinTrack no usa internet ni recopila datos. Toda tu información se guarda solo en tu dispositivo.
+
+Hecho con Kotlin y Jetpack Compose. Proyecto de portfolio de Sirko007.

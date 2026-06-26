@@ -1,0 +1,1 @@
+First release: offline expense and income tracking with a category chart.

@@ -1,0 +1,1 @@
+Controla gastos e ingresos sin conexión, con gráfico por categorías.

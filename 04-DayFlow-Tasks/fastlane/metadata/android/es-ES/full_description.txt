@@ -1,0 +1,13 @@
+DayFlow es un gestor de tareas y hábitos claro y rápido. Crea tareas con prioridad y fecha, márcalas como hechas y mantén tu día organizado.
+
+FUNCIONES PRINCIPALES
+• Crea, edita y elimina tareas (desliza para borrar).
+• Prioridades (baja, media, alta) y fecha de vencimiento opcional.
+• Filtros: Todas, Hoy, Pendientes y Hechas.
+• Contadores de pendientes y completadas.
+• Interfaz Material 3 con modo claro y oscuro y animaciones sutiles.
+
+PRIVACIDAD
+DayFlow no usa internet ni recopila datos. Todo se guarda solo en tu dispositivo.
+
+Hecho con Kotlin y Jetpack Compose. Proyecto de portfolio de Sirko007.
